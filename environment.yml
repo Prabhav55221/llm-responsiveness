@@ -1,0 +1,23 @@
+name: llm-trustworthiness
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - jupyter
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - tqdm
+  - pydantic
+  - pip:
+    - openai>=1.0.0
+    - google-generativeai
+    - ollama
+    - krippendorff
+    - python-dotenv
+    - jsonlines
