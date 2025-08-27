@@ -1,10 +1,10 @@
-# LLM Trustworthiness Analysis
+# LLM Responsiveness Analysis
 
-This project evaluates the trustworthiness of different LLMs for annotating democratic discourse using the ternary comparison task from "Augmentative Retrieval: A Framework for Multi-Aspect Document Reranking".
+This project evaluates different LLMs for annotating democratic discourse using the ternary comparison task from "Augmentative Retrieval: A Framework for Multi-Aspect Document Reranking".
 
 ## Overview
 
-We compare 6 LLMs on their ability to replicate GPT-4o annotations for topicality, novelty, and added value comparisons of social media posts:
+This analysis compares 6 LLMs on their ability to replicate GPT-4o annotations for topicality, novelty, and added value comparisons of social media posts:
 
 1. **GPT-4o** (baseline)
 2. **GPT-4o-mini** 
@@ -18,7 +18,7 @@ We compare 6 LLMs on their ability to replicate GPT-4o annotations for topicalit
 1. Create conda environment:
 ```bash
 conda env create -f environment.yml
-conda activate llm-trustworthiness
+conda activate llm-responsiveness
 ```
 
 2. Copy and fill environment file:
@@ -36,7 +36,7 @@ ollama pull deepseek-r1:1.5b
 ## Project Structure
 
 ```
-llm_trustworthiness_analysis/
+LLMResponsiveness/
 ├── src/                    # Source code
 │   ├── data_loader.py     # Load ternary and unary data
 │   ├── prompt_builder.py  # Construct prompts from paper

@@ -34,7 +34,7 @@ def load_all_data(results_dir: Path):
     
     # Load full ternary data first
     ternary_data = load_ternary_data()
-    print(f"✓ Loaded {len(ternary_data)} ternary examples with full content")
+    print(f"Loaded {len(ternary_data)} ternary examples with full content")
     
     # Load incremental results
     all_results = {}
@@ -411,7 +411,7 @@ def create_html_viewer(examples_data, all_results, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(html)
     
-    print(f"✓ HTML viewer created: {output_file}")
+    print(f"HTML viewer created: {output_file}")
 
 def main():
     results_dir = Path(__file__).parent / "results/Old"

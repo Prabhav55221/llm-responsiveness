@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Visualize Krippendorff's Alpha results from LLM trustworthiness analysis.
+Visualize Krippendorff's Alpha results from LLM responsiveness analysis.
 Creates heatmaps for topicality, novelty, and added value (responsiveness).
 """
 

@@ -1,4 +1,4 @@
-name: llm-trustworthiness
+name: llm-responsiveness
 channels:
   - defaults
   - conda-forge

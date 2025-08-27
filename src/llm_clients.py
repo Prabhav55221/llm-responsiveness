@@ -406,6 +406,6 @@ if __name__ == "__main__":
     for model_name in LLM_CONFIGS.keys():
         try:
             client = LLMClientFactory.create_client(model_name)
-            print(f"✓ Successfully created client for {model_name}")
+            print(f"Successfully created client for {model_name}")
         except Exception as e:
-            print(f"✗ Failed to create client for {model_name}: {e}")
+            print(f"Failed to create client for {model_name}: {e}")
